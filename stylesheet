@@ -1,0 +1,176 @@
+*{
+    padding :0 ;
+    margin  :0 ;
+}
+
+/*pad halaman luar*/
+body{
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(work.jpg);
+}
+
+p{
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+/*Daftar Buku*/
+h2{
+    font-size: 40px;
+    font-weight: 500px;
+    color : #c23616;
+}
+
+/*Menu-Terpopuler*/
+h3 {
+  font : #e74c3c;
+  font-size: 20px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+  border-bottom: 4px solid #fff;
+}
+
+h5 {
+  border-bottom: 4px solid #fff;
+  font-size: 17px;
+  padding-top: 0px;
+  padding-bottom: 3px;
+}
+
+.left h5 span {
+  color: #ffb8b8;
+  font-size: 25px;
+}
+
+/*Sobat Pembaca*/
+h4 {
+    color : #e74c3c;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+/*Halaman Buku*/
+
+.buku {
+    padding: 0px 6px;
+    margin: 2px;
+    float: left;
+    border:1px solid #dfe6e9;
+    width: 23%;
+    height: 340px;
+}
+
+.foto img {
+    padding:5px 0 5px 0;
+    width: 100%;
+    height: 250px;
+}
+
+.judul {
+    font-size: 13px;
+    font-weight: 600;
+    padding:0 0 3px 0;
+    text-align: left;
+}
+
+.penulis{
+    font-size:10px;
+    padding-bottom: 5px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    font-size: 20px;
+    color: #d4d2db;
+    margin: 1px;
+}
+
+/*Pad Dalam*/
+#container{
+    max-width: 1140px;
+    text-align: : center;
+    background-color: #d1d8e0;
+    overflow: hidden;
+    border:0px solid #d9d9d9;
+    margin : 0px 90px;
+    padding:20px 20px 20px 20px;
+}
+
+/*Header Utama*/
+.header {
+    border-radius: 10px 10px 0 0 ;
+    padding: 20px 0 0 20px;
+    text-align : center;
+    background-image: url(header.jpg);
+}
+
+/*Mari Membaca*/
+.header h1{
+    font-size: 20px;
+    color:#34495e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align:center;
+}
+
+/* main menu list */
+
+.content {
+    width: 790px;
+    border: 0px solid #dedede;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+}
+
+.left{
+    width: 280px;
+    color:#fff;
+    border: 1px solid #dedede;
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+    float: left;
+    color: white;
+    background-color: #16a085;
+}
+
+.left ul {
+    list-style-type: none;
+}
+
+.left ul li{
+    display: block;
+}
+
+.left ul li a{
+    display: block;
+    font-size: 18px;
+    border-bottom: 1px dotted #d4d2db;
+    margin-bottom: 9px;
+    padding: 10px 5px;
+    font-color: #d4d2db ;
+}
+
+.left ul li a:hover{
+    color: #ff3838;
+}
+
+
+.footer{
+    font-family: Verdana;
+    font-size: 20px;
+    color: #16a085;
+    clear: both;
+    padding: 15px;
+}
