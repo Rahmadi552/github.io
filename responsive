@@ -1,0 +1,52 @@
+@media screen and (max-width:1140px){
+    .container{
+        width: 100%;
+    }
+    .left{
+        width: 25%;
+        background: #0c7575d7;
+    }
+    .content{
+        width: 68%;
+        float: right;
+    }
+     .middle2{
+        width: 90%;
+        float: right;
+    }
+
+}
+
+/* Untuk ukuran layar 700px kebawah  */
+
+@media screen and (max-width:780px){
+    .header,
+    .footer{
+        text-align: center;
+    }
+    .left{
+        width: auto;
+        float: none;
+    }
+
+    .content{
+        width: auto;
+        float:  none;
+    }
+
+}
+
+@media screen and(max-width:995px){
+    #container{
+        width: 100%;
+    }
+    #left-columm{
+        width: 70%;
+    }
+    #right-columm{
+        width: 30%;
+    }
+    img{
+        width: 100%;
+    }
+}
